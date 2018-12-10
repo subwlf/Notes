@@ -1,0 +1,18 @@
+# Notes
+- [IntelliJ IDEA, Community Edition](https://www.jetbrains.com/idea/)
+- [Java Developer Kit, Standard Edition](https://www.oracle.com/technetwork/java/javase)
+    - Add Java's "bin" directory to your PATH environment variable
+- [Apache Maven](https://maven.apache.org/)
+    - Set environment variable JAVA_HOME, to the directory where Java was installed
+    - useful plugins
+        - [maven-compiler-plugin](https://maven.apache.org/plugins/maven-compiler-plugin/)
+            - [useful for setting -source and -target options of the java compiler](https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html)
+        - [maven-shade-plugin](https://maven.apache.org/plugins/maven-shade-plugin/)
+            - Allows you to create an [Executable JAR](https://maven.apache.org/plugins/maven-shade-plugin/examples/executable-jar.html)
+            - JAR stands for Java ARchive
+            - An "uber JAR" includes all dependencencies in the same file
+- [git](https://git-scm.com/)
+    - Version Control System (Software Configuration Management)
+- [GitHub](https://github.com/)
+    - A place to store public repositories
+- [Markdown](https://guides.github.com/features/mastering-markdown/)
